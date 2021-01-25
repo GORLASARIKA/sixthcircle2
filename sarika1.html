@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <link rel="stylesheet" href="./sarika1.css">
+        <script >
+            function getdata(nam,email,number,address,th,thh,tw,tww,degre,degree,selectoption,mode,laguage,image,file)
+            {
+         document.write("<br>");
+         document.write("name:"+name);
+         document.write("<br>");
+         document.write("email:"+email);
+         document.write("<br>");
+         document.write("number:"+number);
+         document.write("<br>");
+         document.write("address:"+address);
+         document.write("<br>");
+         document.write("10th percentage:"+th);
+         document.write("<br>");
+         document.write("10th board:"+thh);
+         document.write("<br>");
+         document.write("12th pecentage:"+tw);
+         document.write("<br>");
+         document.write("12th board:"+tww);
+         document.write("<br>");
+         document.write("degree percentage:"+degre);
+         document.write("<br>");
+         document.write("degree board:"+degree);
+         document.write("<br>");
+         document.write("job role:"+selectoption);
+         document.write("<br>");
+         document.write("ready to relocate: "+mode);
+         document.write("<br>");
+         document.write("languages:"+language);
+         document.write("<br>");
+         document.write("image:"+image);
+         document.write("<br>");
+         document.write("resume:"+file);
+         document.write("<br>");
+            }
+        </script>
+        <title>sarika1</title>
+    </head>
+    <body>
+        <div class="navbar">
+    <div class="navbar-links">
+        <ul>
+          <li><a> FORMS</a></li>
+          <li> <a href="#basic">Basic information</a> </li>
+          <li><a href="#education">Education details</a> </li>
+          <li><a href="#career">Career details</a> </li>
+      </ul>   
+    </div>
+</div>
+        <form id="form1">
+             <div class="first">
+                <a name="basic"></a> 
+                <b><p> Basic information</p></b><br>
+                Name:<input type="text" name="nam"><br><br>
+                Email:<input type="email" name="email"><br><br>
+                PH no:<input type="number" name="number"><br><br>
+                Address:<input type="text" name="address"><br><br>
+
+             </div>
+            <div class="second">
+                <a name="education"></a>
+                <b><p>Educational details</p></b><br> 
+                10th percentage?<br><br>
+                <input type="text" name="th"><br><br>
+                10th board name?<br><br>
+                <input type="text" name="thh"><br><br>
+                12th percentage?<br><br>
+                <input type="text" name="tw"><br><br>
+                12th board name?<br><br>
+                <input type="text" name="tww"><br><br>
+                degree percentage?<br><br>
+                <input type="text" name="degre"><br><br>
+                degree board name?<br><br>
+                <input type="text" name="degree"><br><br>
+            </div>
+            <div class="third"><br>
+                <a name="career"></a> 
+                <b><p>Career details</p></b><br>
+                You are applying for which job role?<br><br>
+                <select name="selectoption">
+                    <option>select option</option>
+                    <option>developer</option>
+                    <option>tester</option>
+                    <option>designer</option>
+                </select><br><br>
+                Are you ready to relocate to bangalore if you get selected?<br><br>
+                <input type="radio" name="mode">may be<br><br>
+                <input type="radio" name="mode">yes<br><br>
+                <input type="radio" name="mode">no<br><br>
+                Languages known?<br><br>
+                <input type="checkbox" name="language">c<br><br>
+                <input type="checkbox" name="language">java<br><br>
+                <input type="checkbox" name="language">python<br><br>
+                <input type="checkbox" name="language">html<br><br>
+                <input type="checkbox" name="language">css<br><br>
+                <input type="checkbox" name="language">javaScript<br><br>
+                Upload your photo?<br><br>
+                <input type="file" name="image"><br><br>
+                upload your resume?<br><br>
+                <input type="file" name="file"><br><br>
+                <input type="submit" value="submit" onclick=getdata(nam.value,email.value,number.value,address.value,th.value,thh.value,tw.value,tww.value,degre.value,degree.value,selectoption.value,mode.value,language.value,image.value,file.value)>
+               </form>
+
+            </div>
+        </form>
+    </body>
+
+
+</html>

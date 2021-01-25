@@ -1,0 +1,44 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position:fixed;
+    color: white;
+    background-color: black;
+    height:1000px;
+}
+.navbar ul{
+    text-decoration: none;
+    color: bisque;
+}
+.navbar ul li{
+    color:white;
+    font-size: 30px;
+    padding:30px;
+    border-bottom: 1px solid gray;
+    text-decoration: none;
+}
+.navbar ul li a
+{
+    text-decoration: blanchedalmond;
+    color: wheat;
+}
+.first{
+    position:relative;
+    left:500px;
+    top:0px;
+}
+.second{
+    position: relative;
+    left:500px;
+    top:100px;
+    
+}
+.third{
+    position:relative;
+    left:500px;
+    top:200px;
+}
